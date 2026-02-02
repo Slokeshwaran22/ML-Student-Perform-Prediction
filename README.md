@@ -1,81 +1,83 @@
 # Student Performance Prediction using Machine Learning
 
+# 🎓 Student Performance Prediction Using Machine Learning
+
 ## 📌 Project Overview
 This project focuses on predicting student performance using different **Machine Learning algorithms**.  
-The goal is to analyze how various models perform and to compare their accuracy and error metrics.
+The objective is to analyze how various models perform and to compare their accuracy and error metrics.
 
-We use:
-- **Linear Regression** – for continuous value prediction
-- **Logistic Regression** – for classification
-- **Random Forest Regression** – for improved accuracy using ensemble learning
+The following algorithms are used:
+- **Linear Regression** – Continuous value prediction  
+- **Logistic Regression** – Classification tasks  
+- **Random Forest Regression** – Improved accuracy using ensemble learning  
 
 ---
 
 ## 🎯 Objectives
-- Understand the dataset and preprocess it
-- Apply multiple ML algorithms
-- Compare model performance
-- Predict student performance accurately
+- Understand and preprocess the dataset  
+- Apply multiple Machine Learning algorithms  
+- Compare model performance  
+- Predict student performance accurately  
 
 ---
 
 ## 🧠 Machine Learning Algorithms Used
 
 ### 1️⃣ Linear Regression
-- Used for **predicting continuous values**
-- Assumes a linear relationship between input features and output
-- Example use case: Predicting exam marks
+- Used for **predicting continuous values**  
+- Assumes a linear relationship between input features and output  
+- Example use case: Predicting exam marks  
 
 ### 2️⃣ Logistic Regression
-- Used for **binary classification**
-- Output is categorical (Pass / Fail)
-- Uses the **Sigmoid function**
+- Used for **binary classification**  
+- Output is categorical (Pass / Fail)  
+- Uses the **Sigmoid function**  
 
 ### 3️⃣ Random Forest Regression
-- Ensemble learning method
-- Uses multiple decision trees
-- Reduces overfitting and improves accuracy
+- Ensemble learning technique  
+- Utilizes multiple decision trees  
+- Reduces overfitting and improves prediction accuracy  
 
 ---
 
 ## 🛠️ Technologies & Libraries Used
-- Python 🐍
-- NumPy
-- Pandas
-- Matplotlib / Seaborn
-- Scikit-learn
-- Jupyter Notebook
-
----
+- **Python** 🐍  
+- **NumPy**  
+- **Pandas**  
+- **Matplotlib / Seaborn**  
+- **Scikit-learn**  
+- **Jupyter Notebook**  
 
 ---
 
 ## 🔄 Workflow
-1. Import Libraries
-2. Load Dataset
-3. Data Cleaning & Preprocessing
-4. Feature Selection
-5. Train-Test Split
-6. Model Training
-7. Model Evaluation
-8. Result Comparison
+```
+Data Collection
+      ↓
+Data Cleaning & Preprocessing
+      ↓
+Feature Selection
+      ↓
+Train–Test Split
+      ↓
+Model Training
+      ↓
+Model Evaluation
+      ↓
+Result Comparison
+```
 
 ---
 
 ## 📊 Evaluation Metrics
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- R² Score
-- Accuracy (for Logistic Regression)
+- Mean Absolute Error (**MAE**)  
+- Mean Squared Error (**MSE**)  
+- **R² Score**  
+- **Accuracy** (for Logistic Regression)  
 
 ---
 
 ## 🚀 Results
-- Random Forest gives better performance compared to Linear Regression
-- Logistic Regression works well for classification tasks
-- Model comparison helps select the best algorithm
-
----
-
-
-
+- Random Forest Regression outperforms Linear Regression  
+- Logistic Regression performs well for classification tasks  
+- Model comparison helps identify the best-performing algorithm  
